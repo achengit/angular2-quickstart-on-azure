@@ -10,8 +10,7 @@
     "postinstall": "typings install && tsc",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "typings": "typings",
-	"test": "mocha"
+    "typings": "typings"
   },
   "licenses": [
     {
