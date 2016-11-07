@@ -1,8 +1,8 @@
 {
   "name": "angular2-quickstart-on-azure",
   "version": "1.0.0",
-  "engines":{
-    "node":"6.2.2"
+  "engines": {
+    "node": "6.2.2"
   },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
@@ -10,7 +10,8 @@
     "postinstall": "typings install && tsc",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "typings": "typings"
+    "typings": "typings",
+	"test": "mocha"
   },
   "licenses": [
     {
@@ -35,10 +36,11 @@
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.39",
     "zone.js": "^0.6.25",
-	"concurrently": "^3.0.0",
+    "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
     "typescript": "^2.0.3",
-    "typings":"^1.4.0"
+    "typings": "^1.4.0",
+	"mocha": "^3.1.2"
   },
   "devDependencies": {
   }
